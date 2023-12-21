@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace TripBudgetApp
 {
+    //This class contains Id and Tile of positions of application menu
     public class Menu
     {
         public int Id { get; set; }
