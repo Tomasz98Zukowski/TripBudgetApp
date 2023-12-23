@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T23:10:12.725Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="NOb20jGgUhxCkxnaGJS-" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-23T17:54:51.224Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="zyvMEzzULaNEbbQWqR2z" version="22.1.11" type="github">
   <diagram name="Strona-1" id="kTBdSVZCgxqGdSbCh6Is">
-    <mxGraphModel dx="1195" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,11 +10,11 @@
         <mxCell id="VSXg3xIbWFbzHlxD9bAN-2" value="Budget Position:&lt;br&gt;Id:&lt;br&gt;Title:&lt;br&gt;Category:&lt;br&gt;Amount:&lt;br&gt;Data:&lt;br&gt;Account:&lt;br&gt;Persons:&lt;br&gt;Date:" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="313" y="50" width="200" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="sMv6-Q35QQ0dRmT18jvR-1" value="Account:&lt;br&gt;Id:&lt;br&gt;Owner:&lt;br&gt;Balance:&lt;br&gt;Limit:" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="sMv6-Q35QQ0dRmT18jvR-1" value="Account:&lt;br&gt;Id:&lt;br&gt;Owner:&lt;br&gt;Balance:&lt;br&gt;Limit:" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="559" y="75" width="120" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="sMv6-Q35QQ0dRmT18jvR-2" value="Person:&lt;br&gt;Name:&lt;br&gt;Debt:" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="700" y="90" width="120" height="60" as="geometry" />
+        <mxCell id="sMv6-Q35QQ0dRmT18jvR-2" value="Person:&lt;br&gt;Name:&lt;br&gt;Debt:&lt;br&gt;BankAccountNumber:" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="559" y="230" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
