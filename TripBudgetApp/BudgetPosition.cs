@@ -19,6 +19,11 @@ namespace TripBudgetApp
         public DateOnly Date {  get; set; }
         public string Description { get; set; }
 
+        public override string ToString()
+        {
+            return $"Title:{Title} Category:{ExpenseCategory} Amount:{ExpenseAmount}";
+        }
+
 
 
 

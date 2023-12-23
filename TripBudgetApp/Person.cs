@@ -11,7 +11,9 @@ namespace TripBudgetApp
     {
         public int Id { get; set; }
         public string Name { get; set;}
-        public decimal Debt {  get; set; }
+
+        public Account Account { get; set; }
+        
         private string _bankAccountNumber;
 
         public string BankAccountNumber
@@ -24,6 +26,10 @@ namespace TripBudgetApp
                 else _bankAccountNumber = "";
                     }
                 
+        }
+        public override string ToString()
+        {
+            return $"Name:{Name} Bank account number:{_bankAccountNumber}";
         }
 
     }

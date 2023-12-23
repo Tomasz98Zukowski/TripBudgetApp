@@ -13,6 +13,10 @@ namespace TripBudgetApp
         public Person Owner { get; set; }
         public decimal Balance { get; set; }
         public decimal Limit { get; set; }
+        public override string ToString()
+        {
+            return $"Id:{Id} Owner:{Owner.Name} Balance:{Balance} Limit{Limit}";
+        }
 
     }
 }
