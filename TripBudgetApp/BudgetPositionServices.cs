@@ -25,5 +25,42 @@ namespace TripBudgetApp
             _positionsList.Add(position);
             return position;
         }
+
+        public BudgetPosition UpdatePosition(BudgetPosition position)
+        {
+            return position;
+        }
+
+        //delete position from the list of positions
+
+        public bool DeletePosition (int id)
+        {
+            var position = GetPositionById(id);
+            if (position == null)
+            {
+                return false
+            }
+            _positionsList.Remove(position);
+            return true;
+        }
+
+        // This method return Budget position by ID
+
+        public BudgetPosition? GetPositionById(int id)
+        {
+            foreach (var position in _positionsList)
+            {
+                if (position.Id == id)
+                {
+                    return position
+                }
+            }
+            return null
+        }
+
+        public IReadOnlyList<BudgetPosition> GetAllPositions()
+        {
+            return _positionsList
+        }
     }
 }
