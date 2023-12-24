@@ -18,7 +18,7 @@ namespace TripBudgetApp
         }
 
         //Metod add position to list of positions 
-        public BudgetPosition addPosition(BudgetPosition position)
+        public BudgetPosition AddPositionList(BudgetPosition position)
         {
             var id = GetID();
             position.Id = id + 1;
@@ -38,7 +38,7 @@ namespace TripBudgetApp
             var position = GetPositionById(id);
             if (position == null)
             {
-                return false
+                return false;
             }
             _positionsList.Remove(position);
             return true;
@@ -52,10 +52,10 @@ namespace TripBudgetApp
             {
                 if (position.Id == id)
                 {
-                    return position
+                    return position;
                 }
             }
-            return null
+            return null;
         }
 
         //method to create new position 
@@ -67,12 +67,16 @@ namespace TripBudgetApp
                 Id = GetID()+1,
             };
 
-            if (!SetTitle)
+            if (!SetTitle(position))
             {
-                return null
+                return null;
             }
+            if (!SetCategory(position))
+            {
+                return null;
+            
 
-            return position
+            return position;
 
         }
 
@@ -93,18 +97,38 @@ namespace TripBudgetApp
 
         //set category of expense
 
-        private bool SetCategory (BudgetPosition position)
+        private bool SetCategory(BudgetPosition position)
         {
             Console.WriteLine("Select expense category: (1-Nocleg, 2-Transport, 3-Jedzenie, 4-Atrakcje)");
-            char key = Console.ReadKey();
-            if(key == '1')
+            var key = Console.ReadKey();
+            switch (key.Key) 
             {
-                int newKey = int.Parse(key)
-                position.ExpenseCategory = Category[newKey]
-                return true;
+                case ConsoleKey.D1 :
+
+                    position.ExpenseCategory = Category.Nocleg;
+                    return true;
+                    break;
+                case ConsoleKey.D2:
+
+                    position.ExpenseCategory = Category.Transport;
+                    return true;
+                    break;
+                case ConsoleKey.D3:
+
+                    position.ExpenseCategory = Category.Jedzenie;
+                    return true;
+                    break;
+                case ConsoleKey.D4:
+
+                    position.ExpenseCategory = Category.Atrakcje;
+                    return true;
+                    break;
+
+                default:
+                    return false;
             }
-            return false;
             
+
         }
 
 
@@ -112,7 +136,7 @@ namespace TripBudgetApp
 
         public IReadOnlyList<BudgetPosition> GetAllPositions()
         {
-            return _positionsList
+            return _positionsList;
         }
     }
 }
