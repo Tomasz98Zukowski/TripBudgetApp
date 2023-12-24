@@ -9,7 +9,7 @@ namespace TripBudgetApp
     //enum which contains expens categories in Polish
      public enum Category
     {
-        Nocleg,
+        Nocleg = 1 ,
         Transport,
         Jedzenie,
         Atrakcje,

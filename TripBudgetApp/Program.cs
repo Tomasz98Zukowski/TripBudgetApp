@@ -4,7 +4,18 @@
     {
         static void Main(string[] args)
         {
-            static List<Menu> Mainmenu()
+            
+            var MenuService = new MenuServices(MainMenu);
+            var BudgetPositionService = new BudgetPositionServices();
+
+
+
+
+
+
+
+
+            static List<Menu> MainMenu()
             {
                 return new List<Menu>()
                 {

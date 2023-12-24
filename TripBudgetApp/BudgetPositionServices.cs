@@ -58,6 +58,56 @@ namespace TripBudgetApp
             return null
         }
 
+        //method to create new position 
+
+        public BudgetPosition? AddPosition()
+        {
+            var position = new BudgetPosition()
+            {
+                Id = GetID()+1,
+            };
+
+            if (!SetTitle)
+            {
+                return null
+            }
+
+            return position
+
+        }
+
+        //set title of position
+
+        private bool SetTitle (BudgetPosition position)
+        {
+            Console.WriteLine("Enter estimate title:");
+            var title = Console.ReadLine();
+            if (string.IsNullOrWhiteSpace(title))
+            {
+                Console.WriteLine("Title can not be empty");
+                return false;
+            }
+            position.Title = title;
+            return true;
+        }
+
+        //set category of expense
+
+        private bool SetCategory (BudgetPosition position)
+        {
+            Console.WriteLine("Select expense category: (1-Nocleg, 2-Transport, 3-Jedzenie, 4-Atrakcje)");
+            char key = Console.ReadKey();
+            if(key == '1')
+            {
+                int newKey = int.Parse(key)
+                position.ExpenseCategory = Category[newKey]
+                return true;
+            }
+            return false;
+            
+        }
+
+
         //return list of positions
 
         public IReadOnlyList<BudgetPosition> GetAllPositions()
