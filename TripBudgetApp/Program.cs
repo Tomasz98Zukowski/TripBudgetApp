@@ -5,9 +5,8 @@
         static void Main(string[] args)
         {
             
-            var MenuService = new MenuServices();
-            var BudgetPositionService = new BudgetPositionServices();
-            
+            var menuService = new MenuServices(MainMenu());
+            var budgetPositionService = new BudgetPositionServices();
 
 
 

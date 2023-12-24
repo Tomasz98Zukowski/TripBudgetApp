@@ -11,6 +11,10 @@ namespace TripBudgetApp
     public class MenuServices
     {
         private readonly IEnumerable<Menu> _menus;
+        public MenuServices(IEnumerable<Menu> menus)
+        {
+            _menus = menus;
+        }
 
         public IEnumerable<Menu> GetMenus() => _menus;
 

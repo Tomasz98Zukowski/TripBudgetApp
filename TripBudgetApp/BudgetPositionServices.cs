@@ -64,7 +64,7 @@ namespace TripBudgetApp
         {
             var position = new BudgetPosition()
             {
-                Id = GetID()+1,
+                Id = GetID() + 1,
             };
 
             if (!SetTitle(position))
@@ -74,11 +74,11 @@ namespace TripBudgetApp
             if (!SetCategory(position))
             {
                 return null;
-            
+            }
 
             return position;
-
         }
+        
 
         //set title of position
 
