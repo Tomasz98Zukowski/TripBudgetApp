@@ -58,6 +58,8 @@ namespace TripBudgetApp
             return null
         }
 
+        //return list of positions
+
         public IReadOnlyList<BudgetPosition> GetAllPositions()
         {
             return _positionsList
