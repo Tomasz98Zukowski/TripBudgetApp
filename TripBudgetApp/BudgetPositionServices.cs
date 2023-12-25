@@ -20,8 +20,7 @@ namespace TripBudgetApp
         //Metod add position to list of positions 
         public BudgetPosition AddPositionList(BudgetPosition position)
         {
-            var id = GetID();
-            position.Id = id + 1;
+            
             _positionsList.Add(position);
             return position;
         }
@@ -88,7 +87,31 @@ namespace TripBudgetApp
             Console.WriteLine(position);
             return position;
         }
-        
+
+        //method to modify new position
+
+        public BudgetPosition? ModifyPosition(BudgetPosition position)
+        {
+            if (!SetTitle(position))
+            {
+                return null;
+            }
+            
+            if (!SetCategory(position))
+            {
+                return null;
+            }
+            Console.WriteLine();
+            if (!SetValue(position))
+            {
+                return null;
+            }
+            SetDescription(position);
+            
+            Console.WriteLine(position);
+            return position;
+        }
+
 
         //set title of position
 
@@ -138,7 +161,7 @@ namespace TripBudgetApp
                     return false;
             }
         }
-
+        //set amount of expense
         private bool SetValue (BudgetPosition position)
         {
             Console.WriteLine("Insert amount(PLN)");
@@ -152,6 +175,8 @@ namespace TripBudgetApp
             return false;
 
         }
+
+        //set description of expense
 
         private void SetDescription(BudgetPosition position)
         {

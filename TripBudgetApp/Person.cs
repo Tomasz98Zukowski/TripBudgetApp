@@ -11,9 +11,6 @@ namespace TripBudgetApp
     {
         public int Id { get; set; }
         public string Name { get; set;}
-
-        public Account Account { get; set; }
-        
         private string _bankAccountNumber;
 
         public string BankAccountNumber
