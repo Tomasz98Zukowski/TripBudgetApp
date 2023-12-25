@@ -7,13 +7,8 @@
             
             var menuService = new MenuServices(MainMenu());
             var budgetPositionService = new BudgetPositionServices();
-
-
-
-
-
-
-
+            var position = budgetPositionService.AddPosition();
+            
 
             static List<Menu> MainMenu()
             {

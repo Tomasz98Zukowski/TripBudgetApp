@@ -65,17 +65,27 @@ namespace TripBudgetApp
             var position = new BudgetPosition()
             {
                 Id = GetID() + 1,
+                Date = DateTime.Today,
             };
 
             if (!SetTitle(position))
             {
                 return null;
             }
+            Console.WriteLine();
             if (!SetCategory(position))
             {
                 return null;
             }
-
+            Console.WriteLine();
+            if (!SetValue(position))
+            {
+                return null;
+            }
+            Console.WriteLine();
+            SetDescription(position);
+            Console.WriteLine();
+            Console.WriteLine(position);
             return position;
         }
         
@@ -127,8 +137,26 @@ namespace TripBudgetApp
                 default:
                     return false;
             }
-            
+        }
 
+        private bool SetValue (BudgetPosition position)
+        {
+            Console.WriteLine("Insert amount(PLN)");
+            decimal value;
+            var isValue = decimal.TryParse(Console.ReadLine(),out value);
+            if(isValue)
+            {
+                position.ExpenseAmount = value;
+                return true;
+            }
+            return false;
+
+        }
+
+        private void SetDescription(BudgetPosition position)
+        {
+            Console.WriteLine("Insert expense description:");
+            position.Description = Console.ReadLine();
         }
 
 

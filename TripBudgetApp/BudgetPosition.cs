@@ -16,7 +16,7 @@ namespace TripBudgetApp
         public decimal ExpenseAmount { get; set; }
         public Account SourceForExpense { get; set; }
         public Person ExpenseCoomates {  get; set; }
-        public DateOnly Date {  get; set; }
+        public DateTime Date {  get; set; }
         public string Description { get; set; }
 
         public override string ToString()
