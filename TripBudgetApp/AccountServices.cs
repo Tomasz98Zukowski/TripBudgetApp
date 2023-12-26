@@ -84,7 +84,11 @@ namespace TripBudgetApp
         private void SetOwner(Account account)
         {
             Console.WriteLine("Select owner");
-            foreach (Person person in _persons)
+            PersonServices personServices = new PersonServices();
+            foreach (Person person in personServices.ShowAllPersons())
+            {
+                Console.WriteLine(person);
+            }
         }
 
     }

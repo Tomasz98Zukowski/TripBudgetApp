@@ -68,6 +68,12 @@ namespace TripBudgetApp
             SetNumber(person);
             return person;
         }
+
+        public List<Person> ShowAllPersons()
+        {
+            return _persons;
+        }
+
         private void SetName(Person person)
         {
             
@@ -94,5 +100,7 @@ namespace TripBudgetApp
             person.BankAccountNumber = accountNumber;
 
         }
+
+
     }
 }
