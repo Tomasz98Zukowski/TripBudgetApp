@@ -83,7 +83,7 @@ namespace TripBudgetApp
             {
                 Console.WriteLine("Enter person name:");
                 name = Console.ReadLine();
-                isGood = string.IsNullOrWhiteSpace(name);
+                isGood = !string.IsNullOrWhiteSpace(name);
             }
             person.Name = name;
         }

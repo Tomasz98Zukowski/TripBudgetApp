@@ -66,6 +66,7 @@ namespace TripBudgetApp
                 Balance = 0,
             };           
             SetLimit(account);
+            SetOwner(account);
             return account;
         }
         private void SetLimit (Account account)
@@ -85,10 +86,37 @@ namespace TripBudgetApp
         {
             Console.WriteLine("Select owner");
             PersonServices personServices = new PersonServices();
-            foreach (Person person in personServices.ShowAllPersons())
+            List<Person> persons = personServices.ShowAllPersons();
+            bool isGood = false;
+            
+
+
+            while (!isGood)
             {
-                Console.WriteLine(person);
+                
+ 
+                int i = 0;
+                foreach (Person person in persons)
+                {
+                    Console.WriteLine("Select account owner");
+                    Console.WriteLine($"{++i} :{person}");
+                    Console.WriteLine("If you want create new owner insert 99");
+                }
+                var key = Console.ReadLine();
+                if (int.TryParse(key, out int x) && (x == persons.LongCount()))
+                {
+                    isGood = true;
+                    account.Owner = persons[x-1];
+                    Console.WriteLine($"Accound ID: #{account.Id} have owner:{account.Owner}");
+                }
+                if (int.TryParse(key, out x) && (x == 99))
+                {
+                    Person person = personServices.NewPerson();
+                    personServices.AddPerson(person);
+                }
+
             }
+            
         }
 
     }

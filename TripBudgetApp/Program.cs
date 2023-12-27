@@ -7,7 +7,10 @@
             
             var menuService = new MenuServices(MainMenu());
             var budgetPositionService = new BudgetPositionServices();
-            var position = budgetPositionService.AddPosition();
+            var accountService = new AccountServices();
+            accountService.AddAccount();
+
+
             
 
             static List<Menu> MainMenu()

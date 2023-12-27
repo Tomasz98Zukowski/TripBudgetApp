@@ -140,22 +140,18 @@ namespace TripBudgetApp
 
                     position.ExpenseCategory = Category.Nocleg;
                     return true;
-                    break;
                 case ConsoleKey.D2:
 
                     position.ExpenseCategory = Category.Transport;
                     return true;
-                    break;
                 case ConsoleKey.D3:
 
                     position.ExpenseCategory = Category.Jedzenie;
                     return true;
-                    break;
                 case ConsoleKey.D4:
 
                     position.ExpenseCategory = Category.Atrakcje;
                     return true;
-                    break;
 
                 default:
                     return false;
