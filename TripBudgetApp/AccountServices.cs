@@ -58,7 +58,7 @@ namespace TripBudgetApp
 
         //method to create new account 
 
-        public Account? AddAccount()
+        public Account? AddAccount(List <Person> persons)
         {
             var account = new Account()
             {
@@ -66,9 +66,11 @@ namespace TripBudgetApp
                 Balance = 0,
             };           
             SetLimit(account);
-            SetOwner(account);
+            SetOwner(account, persons);
             return account;
         }
+
+        //method set limit for account
         private void SetLimit (Account account)
         {
             decimal limit=0;
@@ -82,39 +84,36 @@ namespace TripBudgetApp
             Console.WriteLine($"Your limit is {limit}");
         }
 
-        private void SetOwner(Account account)
+        //method account owner
+
+        private void SetOwner(Account account, List <Person> persons)
         {
             Console.WriteLine("Select owner");
-            PersonServices personServices = new PersonServices();
-            List<Person> persons = personServices.ShowAllPersons();
+            PersonServices personServices = new PersonServices();            
             bool isGood = false;
             
-
-
             while (!isGood)
             {
-                
- 
                 int i = 0;
+                Console.WriteLine("Select account owner");
                 foreach (Person person in persons)
                 {
-                    Console.WriteLine("Select account owner");
-                    Console.WriteLine($"{++i} :{person}");
+                    
+                    Console.WriteLine($"Selection: {++i} : {person}");
                     Console.WriteLine("If you want create new owner insert 99");
                 }
                 var key = Console.ReadLine();
-                if (int.TryParse(key, out int x) && (x == persons.LongCount()))
+                if (int.TryParse(key, out int x) && (x == i))
                 {
                     isGood = true;
                     account.Owner = persons[x-1];
                     Console.WriteLine($"Accound ID: #{account.Id} have owner:{account.Owner}");
                 }
-                if (int.TryParse(key, out x) && (x == 99))
+                else if (int.TryParse(key, out x) && (x == 99))
                 {
                     Person person = personServices.NewPerson();
                     personServices.AddPerson(person);
                 }
-
             }
             
         }

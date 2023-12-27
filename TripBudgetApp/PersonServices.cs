@@ -95,7 +95,9 @@ namespace TripBudgetApp
             {
                 Console.WriteLine("Enter account number");
                 accountNumber = Console.ReadLine();
-                isGood = string.IsNullOrWhiteSpace(accountNumber);
+                if (string.IsNullOrWhiteSpace(accountNumber) || accountNumber.Length == 26)
+                    isGood = true;
+                else isGood = false;
             }
             person.BankAccountNumber = accountNumber;
 

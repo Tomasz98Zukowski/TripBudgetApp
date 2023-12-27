@@ -8,7 +8,9 @@
             var menuService = new MenuServices(MainMenu());
             var budgetPositionService = new BudgetPositionServices();
             var accountService = new AccountServices();
-            accountService.AddAccount();
+            var personService = new PersonServices();
+            List<Person> persons = personService.ShowAllPersons();
+            accountService.AddAccount(persons);
 
 
             
