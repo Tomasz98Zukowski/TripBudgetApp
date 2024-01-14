@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-14T18:16:38.277Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="OaOcEQhD3LBeMhfhI8SU" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-14T18:21:24.990Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="T-XtNSdC-gU4I843uv_o" version="22.1.18" type="github">
   <diagram name="Strona-1" id="yKga03g6jz8WkU559Z67">
-    <mxGraphModel dx="1434" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="2047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -127,11 +127,20 @@
         <mxCell id="QNOfKq-FGGehNb9AUrvW-28" value="Employee raport" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="-140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QNOfKq-FGGehNb9AUrvW-32" value="Stop:&lt;br&gt;Stop time" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QNOfKq-FGGehNb9AUrvW-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QNOfKq-FGGehNb9AUrvW-32" target="QNOfKq-FGGehNb9AUrvW-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QNOfKq-FGGehNb9AUrvW-32" value="Stop:&lt;br&gt;Stop time&lt;br&gt;Set description" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QNOfKq-FGGehNb9AUrvW-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QNOfKq-FGGehNb9AUrvW-34" target="QNOfKq-FGGehNb9AUrvW-36">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="QNOfKq-FGGehNb9AUrvW-34" value="Stop:&lt;br&gt;Start time&lt;br&gt;Select project" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QNOfKq-FGGehNb9AUrvW-36" value="TimeEnter:&lt;br&gt;StartTime:&lt;br&gt;StopTime:&lt;br&gt;Project:&lt;br&gt;Description" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="440" width="170" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
