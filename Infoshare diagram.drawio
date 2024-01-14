@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-14T19:15:32.426Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="HalnsUjLmn41GeIP54Hm" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-14T19:20:00.921Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Xk2pOiSeB2ocKguqD9NQ" version="22.1.18" type="github">
   <diagram name="Strona-1" id="yKga03g6jz8WkU559Z67">
     <mxGraphModel dx="1434" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -15,7 +15,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QNOfKq-FGGehNb9AUrvW-1" value="User&lt;br&gt;ID:&lt;br&gt;Name:&lt;br&gt;Surname:&lt;br&gt;Position:&lt;br&gt;Total time:&lt;br&gt;Department:&lt;br&gt;HourCost:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="QNOfKq-FGGehNb9AUrvW-1" value="User&lt;br&gt;&lt;b&gt;&lt;i&gt;ID:&lt;br&gt;Name:&lt;br&gt;Surname:&lt;br&gt;Position:&lt;br&gt;Total time:&lt;br&gt;Department:&lt;/i&gt;&lt;/b&gt;&lt;br&gt;HourCost:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="100" y="90" width="170" height="170" as="geometry" />
         </mxCell>
         <mxCell id="QNOfKq-FGGehNb9AUrvW-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="QNOfKq-FGGehNb9AUrvW-4" target="QNOfKq-FGGehNb9AUrvW-9" edge="1">
@@ -118,7 +118,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QNOfKq-FGGehNb9AUrvW-23" value="Projekt:&lt;br&gt;ID:&lt;br&gt;Name:&lt;br&gt;Total time:&lt;br&gt;Department:&lt;br&gt;TotalCost:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="QNOfKq-FGGehNb9AUrvW-23" value="Projekt:&lt;br&gt;&lt;i&gt;&lt;b&gt;ID:&lt;br&gt;Name:&lt;br&gt;Total time:&lt;br&gt;Department:&lt;/b&gt;&lt;/i&gt;&lt;br&gt;TotalCost:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="1020" y="30" width="170" height="170" as="geometry" />
         </mxCell>
         <mxCell id="QNOfKq-FGGehNb9AUrvW-25" value="Modify employee" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -139,7 +139,7 @@
         <mxCell id="QNOfKq-FGGehNb9AUrvW-34" value="Start:&lt;br&gt;Start time&lt;br&gt;Select project" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="810" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QNOfKq-FGGehNb9AUrvW-36" value="TimeEnter:&lt;br&gt;StartTime:&lt;br&gt;StopTime:&lt;br&gt;Project:&lt;br&gt;Description&lt;br&gt;Time:&lt;br&gt;Cost:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="QNOfKq-FGGehNb9AUrvW-36" value="&lt;b&gt;&lt;i&gt;TimeEnter:&lt;br&gt;StartTime:&lt;br&gt;StopTime:&lt;br&gt;Project:&lt;br&gt;Description&lt;br&gt;Time:&lt;/i&gt;&lt;/b&gt;&lt;br&gt;Cost:" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="900" y="440" width="170" height="170" as="geometry" />
         </mxCell>
         <mxCell id="QNOfKq-FGGehNb9AUrvW-39" value="Admin" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
