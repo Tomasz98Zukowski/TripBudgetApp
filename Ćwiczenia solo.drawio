@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T19:40:42.568Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qLaCUT3xkug8I-aaEPSA" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T19:41:45.190Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="tkUDvkXqBkilQaclnljH" version="22.1.21" type="github">
   <diagram name="Strona-1" id="yKga03g6jz8WkU559Z67">
     <mxGraphModel dx="1195" dy="2960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -538,7 +538,7 @@
         <mxCell id="UWL07aWPYAHgZYYo93iV-52" value="+CreateMonthlyInvoice(): Invoice&lt;br&gt;+CreateBlankInvoice(): Invoice" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="UWL07aWPYAHgZYYo93iV-49">
           <mxGeometry y="60" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="UWL07aWPYAHgZYYo93iV-53" value="User" style="html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+        <mxCell id="UWL07aWPYAHgZYYo93iV-53" value="Client" style="html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1800" y="-920" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UWL07aWPYAHgZYYo93iV-55" value="Uses" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1.02;entryY=0.917;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UWL07aWPYAHgZYYo93iV-53" target="UWL07aWPYAHgZYYo93iV-39">
