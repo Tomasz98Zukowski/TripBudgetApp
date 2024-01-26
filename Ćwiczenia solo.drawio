@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2024-01-26T17:02:50.673Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Op5ncNYsrYlFOgRtT13S" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-26T17:03:28.320Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="1KOG_Y8o4OD2METT_Qld" version="23.0.2" type="github">
   <diagram name="Strona-1" id="yKga03g6jz8WkU559Z67">
-    <mxGraphModel dx="2558" dy="4863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1042" dy="4060" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="xlWYKSIaAv-n1kslFOv--31" value="Shape" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1840" y="-2740" width="820" height="650" as="geometry" />
+          <mxGeometry x="1830" y="-2740" width="830" height="650" as="geometry" />
         </mxCell>
         <mxCell id="mdG-KwgYNuyGTxRHiD6k-51" value="Shape" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1510" y="-1940" width="650" height="510" as="geometry" />
@@ -954,7 +954,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xlWYKSIaAv-n1kslFOv--34" value="Creates" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xlWYKSIaAv-n1kslFOv--33">
+        <mxCell id="xlWYKSIaAv-n1kslFOv--34" value="Clones" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xlWYKSIaAv-n1kslFOv--33">
           <mxGeometry x="0.11" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
