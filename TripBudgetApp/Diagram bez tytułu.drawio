@@ -1,9 +1,18 @@
-<mxfile host="app.diagrams.net" modified="2024-03-20T11:02:04.590Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.7" etag="YUjqHexHCm4S39f7sxDE" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-20T11:11:15.083Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="60lTJ2A02nnbMUamhT-u" version="24.0.7" type="github">
   <diagram name="Strona-1" id="VRjqJfK3yL9bVJ2Rou8w">
-    <mxGraphModel>
+    <mxGraphModel dx="2261" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="fwrgIRFsL60fakUr66wn-1" value="Dto&lt;br&gt;OrganizationName&lt;br&gt;IdOrganization&lt;br&gt;IdUser&lt;br&gt;UserName&lt;br&gt;IdProject&lt;br&gt;ProjectName&lt;div&gt;List&amp;lt;Project&amp;gt;&lt;br&gt;List&amp;lt;User&amp;gt;&lt;br&gt;List&amp;lt;Organization&amp;gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="230" width="280" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="fwrgIRFsL60fakUr66wn-2" value="View()&lt;br&gt;&amp;nbsp;userID = GetUserIdFromAccountId&lt;div&gt;dto.projectList = GetUserOrganizations(userId)&lt;/div&gt;&lt;div&gt;ToView(dto)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="230" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="fwrgIRFsL60fakUr66wn-4" value="&lt;div&gt;[HttpPost]&lt;/div&gt;View(dto)&lt;div&gt;dto.IdOrganization = GetIdFromName(dto.OrganizationName)&lt;br&gt;dto.UserList = GetOrganizationUsers(dto.IdOrganization)&lt;/div&gt;&lt;div&gt;dto.ProjectList = GetOrganizationProjects(dto.IdOrganization)&lt;br&gt;&lt;div&gt;ToView(dto)&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="380" width="360" height="110" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
