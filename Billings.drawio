@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-05T15:05:45.840Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="JKfNY4tau7JhP5UJ8DVj" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-06T19:31:25.897Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="IrLvmP2zR5SEd8DOksJL" version="24.3.1" type="github">
   <diagram name="Strona-1" id="tuonSbg_EdPzoUg2D_FV">
     <mxGraphModel dx="1418" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -228,7 +228,7 @@
             <mxPoint x="400" y="370" as="sourcePoint" />
             <mxPoint x="568" y="-23" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="470" y="-50" />
+              <mxPoint x="490" y="10" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -304,7 +304,7 @@
         <mxCell id="ah-sx95ftFIzXOyUMhMD-25" value="Bills" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="590" y="170" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ah-sx95ftFIzXOyUMhMD-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.521;exitY=-0.202;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ah-sx95ftFIzXOyUMhMD-9" edge="1" target="ah-sx95ftFIzXOyUMhMD-27">
+        <mxCell id="ah-sx95ftFIzXOyUMhMD-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.521;exitY=-0.202;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ah-sx95ftFIzXOyUMhMD-9" target="ah-sx95ftFIzXOyUMhMD-27" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="200" as="sourcePoint" />
             <mxPoint x="870" y="180" as="targetPoint" />
